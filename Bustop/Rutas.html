@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Rutas</title>
+	<link rel="stylesheet" type="text/css" href="css/estilosRutas.css">
+	<link rel="stylesheet" type="text/css" href="icon/fonts.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+	 <link rel="icon" type="img/png" href="img\B.png">
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js" ></script>
+			<script src="http://code.jquery.com/jquery-latest.js"></script>
+			<script src="js/arriba.js"></script>
+</head>
+<body background="img/fondo.jpg" data-spy="scroll" data-target=".navbar" data-offset="50">
+	<!--PANTALLA DE CARGA-->
+	<div id="contenedor_carga">
+		<div id="carga"></div>
+	</div>
+	<!--FINAL PANTALLA DE CARGA-->
+
+	
+
+<span class=" ir-arriba icon-circle-up"></span>
+
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a href="#" class="nabvar-brand"><img src="img\BustopRutas.png" width="200" height="50"  ></a>
+			</div>
+			<div>
+				<div class="collapse navbar-collapse" id="myNavbar">
+					<ul class="nav navbar-nav">
+
+					<li><a href="index.html">Inicio</a></li>
+
+						<li class="active"><a href="index.html" target="_blank">Rutas</a></li>
+
+						</li>
+						<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Comunity<span class="caret"></span></a>
+							<ul class="dropdown-menu">
+								<li><a href="" target="_blank">My Clan</a></li>
+								<li><a href="#sectionForsaken">Clan Search</a></li>
+								<li><a href="#sectionNewLight">Groups</a></li>
+								<li><a href="#sectionNewLight">Comics</a></li>
+							</ul>
+						</li>
+					</ul> 
+
+					<!--buscador-->
+
+            <form action="" class="navbar-form navbar-right" role="search">
+              <div class="form-group">
+                <input type="text" class ="form-control" placeholder="buscar">
+              </div>
+              <button type="submit" class="btn btn-info">
+                <span class="glyphicon glyphicon-search"></span>
+              </button>
+            </form>
+
+            <!--fin buscador-->
+
+					<ul class="nav navbar-nav navbar-right">
+					<li><a href="Login.html"><span class="glyphicon glyphicon-log-in"  ></span> Login</a></li>
+					</ul>
+					
+					
+				</div>
+			</div>
+		</div>
+	</nav>
+
+	
+
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+  	<li class="breadcrumb-item active" aria-current="page">Purchase</li>
+    <li class="breadcrumb-item">Destiny 2</li>
+    
+  </ol>
+</nav>
+	
+<!--PANTALLA DE CARGA SCRIPT-->
+<script>
+	window.onload = function(){
+		var contenedor = document.getElementById('contenedor_carga');
+		contenedor.style.visibility = 'hidden';
+		contenedor.style.opacity = '0';
+	}
+</script>
+
+
+</body>
+</html>
