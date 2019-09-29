@@ -36,6 +36,7 @@
 /*FIN PANTALLA DE CARGA*/
 
 .section{
+    margin-top: 80px;
     width: 85%;
 	background-color: rgb(225, 225, 225);
 	border-radius: 10px;
