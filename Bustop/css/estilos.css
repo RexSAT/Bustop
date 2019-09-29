@@ -36,8 +36,10 @@
 /*FIN PANTALLA DE CARGA*/
 
 .section{
+    width: 85%;
 	background-color: rgb(225, 225, 225);
 	border-radius: 10px;
+    height: 1000px;
 }
 
 
@@ -125,6 +127,10 @@ h2{
 #texto{
 	margin-right: 10%;
 	margin-left: 10%;
+}
+
+.contenedor{
+    width: 80%;
 }
 
 
