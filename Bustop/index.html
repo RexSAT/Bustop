@@ -1,108 +1,85 @@
 <!DOCTYPE html>
-<html lang="es">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximun-sacle-1.0, minimun-scale=1.0">
-  <title>BUSTOP</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-  <link rel="stylesheet" href="css\estilos.css">
-  <link rel="icon" type="img/png" href="img\B.png">
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js" ></script>
-      <script src="http://code.jquery.com/jquery-latest.js"></script>
-      <script src="js/arriba.js"></script>
+	<meta charset="UTF-8">
+	<title>Bustop</title>
+	<meta name="viewport" content="width-device-width, initial-scale-1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 </head>
+<body>
+	<header>
+		<div class="container">
+			<center><p>Parte de Diego</p></center>
+		</div>
+	</header>
 
-<body background="img/fondo.jpg" data-spy="scroll" data-target=".navbar" data-offset="50">
+	<div class="container">
+		<h2>ejemplo carrusel</h2>
+		<div id="myCarousel" class="carousel slide" data-ride="carousel">
+			<!-- indicaciones -->
+			<ol class="carousel-indicators">
+				<li data-target="#myCarousel" data-slide="0" class="active"></li>
+				<li data-target="#myCarousel" data-slide="1" ></li>
+				<li data-target="#myCarousel" data-slide="2" ></li>
+			</ol>
+			<!-- envolver las imagenes -->
+				<div class="carousel-inner">
+					<div class="item active">
+						<center><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiFaxQJOH98dY2S4p6aLxm0rcU6b1X_tX6brfUNJlPx5CXXOoMCw" style="width:50%; height: 400px"></center>
+					</div>
+					<div class="item">
+						<center><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyXwSGAmDOCgumC6O0RVDcfdhjUw6P_fmQ7W3M0x6SwUmgQ-d-" style="width: 70%; height: 400px"></center>
+					</div>
+					<div class="item">
+						<center><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3YkNedsq_YCMqRbwD8xrEH1qX773RNt9eONSjFGtoaSwADQmr2Q" style="width: 50%; height: 400px"></center>
+					</div>
+				</div>
+				<!--controles de izquierda a derecha -->
+				<a class="left carousel-control" href="#myCarousel" data-slide="prev">
+					<span class="glyphicon glyphicon-chevron-left"></span>
+					<span class="sr-only">previous</span>
+				</a>
+				<a class="right carousel-control" href="#myCarousel" data-slide="next">
+					<span class="glyphicon glyphicon-chevron-right"></span>
+					<span class="sr-only">next</span>
+				</a>
+		</div>
+	</div>
 
-<!--PANTALLA DE CARGA-->
-  <div id="contenedor_carga">
-    <div id="carga"></div>
-  </div>
-  <!--FINAL PANTALLA DE CARGA-->
+	<div class="titulo">
+		<div class="body">
+			<div class="izquierda">
+				<center>
+				<h2>Contactanos</h2>
+				<p>Creadores:</p>
+				<p>---------------------------</p>
+				<p>cel: ................. - ..................</p>
+				<p>Cra 3 ##12-11, Ibagué, Tolima</p>
+				</center>
+			</div>
+			<div class="derecha">
+				<center>
+					<h2>dueños</h2>
+					<p> ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				</center>
+			</div>
+		</div>
+	</div>
+	<footer>
+		<center><h1>footer</h1></center>
+			<div class="container-fluid">
+			<center><a href="https://www.facebook.com/"><img id="2" src="img/facebook.png" class="img-responsive" style="width: 40px " alt="image"></a></center>
+			<center><a href="https://www.instagram.com/?hl=es-la"> <img id="3" src="img/instagram.png" class="img-responsive" style="width: 40px " alt="image"></a></center>
+		</div>
+	</footer>
 
-  <!--PANTALLA DE CARGA SCRIPT-->
-<script>
-  window.onload = function(){
-    var contenedor = document.getElementById('contenedor_carga');
-    contenedor.style.visibility = 'hidden';
-    contenedor.style.opacity = '0';
-  }
-</script>
-
-  <header>  
-      <nav class="navbar navbar-inverse navbar-static-top nav-bustop" role="navigation">
-        <div class="container-fluid">
-          <div class="navbar-header">
-              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navegacion-dmg">
-                <span class="sr-only">Desplegar/Ocultar menu</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-              <a href="#" class="nabvar-brand"><img src="img\Bustop.png" width="200" height="50"  ></a>
-          </div>
-
-          <!--Inicia Menu-->
-
-          <div class="collapse navbar-collapse" id="navegacion-dmg">
-
-            <ul class="nav navbar-nav">
-              <li class="active"><a href="index.html">Inicio</a></li>
-
-              <li><a href="Rutas.html">Rutas</a></li>
-
-              <li><a href="Acerca.html">Acerca de Bustop</a></li>
-
-            </ul> 
-
-            <ul class="nav navbar-nav navbar-right">
-          <li><a href="Login.html"><span class="glyphicon glyphicon-log-in"  ></span> Login</a></li>
-          </ul>
-            
-          </div>
-
-
-        </div>
-
-      </nav>
-    
-  </header>
-  
-  <section>
-    
-    <div class="container section">
-      <center>
-      <img class="img-responsive" src="img\LogoBus.png">
-      
-
-      <!--SLIDER-->
-   <div class="contenedor">
-        <div class="content-all" id="carousel">
-                <div class="content-carrousel">
-                    <figure><img src="img/img1.jpg"></figure>
-                    <figure><img src="img/img2.jpg"></figure>
-                    <figure><img src="img/img3.jpg"></figure>
-                    <figure><img src="img/img4.jpg"></figure>
-                    <figure><img src="img/img5.jpg"></figure>
-                    <figure><img src="img/img6.jpg"></figure>
-                    <figure><img src="img/img7.jpg"></figure>
-                    <figure><img src="img/img8.jpg"></figure>
-                    <figure><img src="img/img9.jpg"></figure>
-                    <figure><img src="img/img10.jpg"></figure>
-                </div>
-        </div>
-  </div>
-   <!--FIN SLIDER-->
-   </div>
-
-   </center>
-
-  </section>
-
-  <footer></footer>
-
-  <script src="js\jquery.js"></script>
-  <script src="js\bootstrap.min.js"></script>
 </body>
 </html>
