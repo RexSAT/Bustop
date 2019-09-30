@@ -138,6 +138,7 @@ h2{
 
 /**********************************FIN SLIDER*********************************/
 
+<<<<<<< HEAD
 @media (max-width:767px) {
     /*********************SLIDER******************************/
 h2{
@@ -233,3 +234,62 @@ h2{
 
 
     }
+=======
+/*PARTE DE CONTACTENOS DOUGLAS*************************** NO REVISADO************************/
+header{
+    background-color: red;
+    color: black;
+}
+.titulo{
+    margin: auto;
+    border: solid;
+    margin-top: 30px;
+    width: 90%;
+    height: 300px;
+}
+.body{
+    margin-top: 80px; 
+    background-color: rgba(55,55,55,0.2);
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+.izquierda{
+    background-color: rgba(55,55,55,0.2);
+    top:100px;
+    width: 50%;
+    float: left;
+    height: 100%;
+    border-right: solid;
+}
+.izquierda h2 {
+    margin-top: 50px;
+}
+.derecha{
+    background-color: rgba(55,55,55,0.2);
+    width: 50%;
+    float: left;
+    height: 100%;
+}
+.derecha h2 {
+    margin-top: 50px;
+}
+footer{
+    border-top: solid;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    width: 100%;
+    background-color: black;
+}
+
+footer .container-fluid{
+    width: 12%;
+
+}
+footer img{
+    float: left;
+    margin-left: 20px;
+}
+
+/*FIN PARTE DE CONTACTENOS DOUGLAS*************************** NO REVISADO************************/
+>>>>>>> 18efcb2c06caa8805aafb292d22239e3a8b3055c
