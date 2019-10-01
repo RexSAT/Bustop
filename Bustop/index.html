@@ -4,34 +4,18 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximun-sacle-1.0, minimun-scale=1.0">
   <title>BUSTOP</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-  <link rel="stylesheet" href="css\estilos.css">
   <link rel="icon" type="img/png" href="img\B.png">
+   <link rel="stylesheet" type="text/css" href="css/estilos.css">
+  <link rel="stylesheet" type="text/css" href="icon/fonts.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js" ></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
       <script src="http://code.jquery.com/jquery-latest.js"></script>
       <script src="js/arriba.js"></script>
-</head>
+  
 
 <body background="img/fondo.jpg" data-spy="scroll" data-target=".navbar" data-offset="50">
 
-<!--PANTALLA DE CARGA-->
-  <div id="contenedor_carga">
-    <div id="carga"></div>
-  </div>
-  <!--FINAL PANTALLA DE CARGA-->
-
-  <!--PANTALLA DE CARGA SCRIPT-->
-<script>
-  window.onload = function(){
-    var contenedor = document.getElementById('contenedor_carga');
-    contenedor.style.visibility = 'hidden';
-    contenedor.style.opacity = '0';
-  }
-</script>
-
-  <header>  
-
-          <!--HEADER-->
       <nav class="navbar navbar-inverse navbar-fixed-top">
         <div class="container-fluid">
           <div class="navbar-header">
@@ -47,7 +31,7 @@
 
           <!--Inicia Menu-->
 
-          <div class="collapse navbar-collapse" id="navegacion-dmg">
+          <div class="collapse navbar-collapse" id="myNavbar">
 
             <ul class="nav navbar-nav">
               <li class="active"><a href="index.html">Inicio</a></li>
@@ -68,8 +52,8 @@
         </div>
 
       </nav>
-    
-  </header>
+    <!--FIN HEADER-->
+
   
   <section>
     
@@ -106,5 +90,23 @@
 
   <script src="js\jquery.js"></script>
   <script src="js\bootstrap.min.js"></script>
+
+
+  <!--PANTALLA DE CARGA-->
+  <div id="contenedor_carga">
+    <div id="carga"></div>
+  </div>
+  <!--FINAL PANTALLA DE CARGA-->
+  <!--PANTALLA DE CARGA SCRIPT-->
+<script>
+  window.onload = function(){
+    var contenedor = document.getElementById('contenedor_carga');
+    contenedor.style.visibility = 'hidden';
+    contenedor.style.opacity = '0';
+  }
+</script>
 </body>
 </html>
+
+
+<!--SAT-->
