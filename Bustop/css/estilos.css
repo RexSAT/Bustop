@@ -36,7 +36,6 @@
 /*FIN PANTALLA DE CARGA*/
 
 .section{
-
     margin-top: 100px;
     width: 90%;
 	background-color: rgba(0, 0, 0, .5);
@@ -66,7 +65,7 @@ h2{
 .content-carrousel{
     width: 100%;
     position: absolute;
-    animation: rotar 30s infinite linear;
+    animation: rotar 50s infinite linear;
     transform-style: preserve-3d;
 }
 
@@ -138,6 +137,8 @@ h2{
 
 /**********************************FIN SLIDER*********************************/
 
+
+
 /**************************slider 2********************************/
 
 @media (min-width:767px) {
@@ -207,6 +208,7 @@ footer img{
 /*FIN PARTE DE CONTACTENOS DOUGLAS*************************** NO REVISADO************************/
 
 /*pantalla pequeña*/
+
 
 @media (max-width:767px) {
 
@@ -304,5 +306,16 @@ h2{
 
 
     }
+
+
+
+}
+footer img{
+    float: left;
+    margin-left: 20px;
+}
+
+/*FIN PARTE DE CONTACTENOS DOUGLAS*************************** NO REVISADO************************/
+
 
 
