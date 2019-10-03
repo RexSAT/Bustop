@@ -190,8 +190,8 @@ header{
 }
 footer{
     border-top: solid;
-    margin-top: 50px;
-    margin-bottom: 30px;
+    margin-top: 100px;
+    
     width: 100%;
     background-color: black;
 }
@@ -310,22 +310,7 @@ h2{
 
 
 }
-footer{
-    border-top: solid;
-    width: 100%;
-    background-color: black;
-}
 
-footer .container-fluid{
-    width: 12%;
-
-}
-footer img{
-    
-    padding: 5px;
-}
-footer hr{
-color: rgba(250,240,245,0.9);
 
 /*FIN PARTE DE CONTACTENOS DOUGLAS*************************** NO REVISADO************************/
 
