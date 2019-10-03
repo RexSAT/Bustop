@@ -154,3 +154,21 @@ tbody tr td a:hover{
 
 	
 }
+footer{
+    border-top: solid;
+    margin-top: 1000px;
+   margin-bottom: fixed;
+    width: 100%;
+    background-color: black;
+}
+
+footer .container-fluid{
+    width: 12%;
+
+}
+footer img{
+    ;
+    padding: 5px;
+}
+footer hr{
+color: rgba(250,240,245,0.9);
