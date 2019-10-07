@@ -53,6 +53,7 @@
     text-indent: 10px;
     margin-top: 5px;
     margin-right: 3px;
+    margin-bottom: 5px;
     border-radius: 5px;
 }
 
@@ -94,10 +95,92 @@ tbody tr td a:hover{
     display: none;
 }
 
+.rutas-dmg{
+    margin-top: 200px;
+}
+
+#contenedor-img{
+    width: 90%;
+    background-color: rgba(0,0,0,1);
+    border-color: rgba(0,0,0,.5);
+    -webkit-transition:height:.4s ease;
+    -o-transition: .4s ease;
+    transition: .4s ease;
+}
+
+#contenedor-img:hover{
+    width: 110%;
+    background-color: rgba(0,0,0,1);
+    border-color: rgba(0,0,0,.5);
+}
+
+.titulogaleria{
+    text-decoration: none;
+    font-family: 'Neucha', cursive;
+    color: white;
+}
+
+
+.rutas-dmg{
+    margin-top: 120px;
+}
+
+/*
+nav.2{
+    width: 90%;
+    height: 300px;
+    padding: 50px;
+}
+
+div.Contenedor{
+    border-radius: 10px;
+    margin-top: 150px;
+    height:320px;
+    float:left;
+    -webkit-transition:height:.4s ease;
+    -o-transition: .4s ease;
+    transition: .4s ease;
+    padding: 20px;
+}
+
+div#Uno{
+    width: 45%;
+    background-color: rgba(0,0,0,.5);
+}
+
+div.contenedor #Tres{
+    display: none;
+    width: 10%;
+}
+
+
+div#Dos{
+    width: 45%;
+    background-color: rgba(0,0,0,.5);
+} */
+
 /*Pantalla menos de 767px*/
 
 
 @media (max-width:767px) {
+
+    /*GALERIA*/
+
+  #contenedor-img{
+    width: 90%;
+    background-color: rgba(0,0,0,1);
+    border-color: rgba(0,0,0,.5);
+    -webkit-transition:height:.4s ease;
+    -o-transition: .4s ease;
+    transition: .4s ease;
+}
+
+#contenedor-img:hover{
+    width: 90%;
+    background-color: rgba(0,0,0,1);
+    border-color: rgba(0,0,0,.5);
+}
+
 
 
 	/*buscador*/
@@ -114,7 +197,7 @@ tbody tr td a:hover{
 }
 
 .content-search{
-	margin-top: 230px;
+	margin-top: 235px;
     width: 100%;
     height: 100vh;
     position: fixed;

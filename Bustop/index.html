@@ -14,7 +14,7 @@
       <script src="js/arriba.js"></script>
   
 
-<body background="img/fondo.jpg" data-spy="scroll" data-target=".navbar" data-offset="50">
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
  <!--HEADER-->
       <nav class="navbar navbar-inverse navbar-fixed-top">
         <div class="container-fluid">
@@ -26,7 +26,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <a href="#" class="nabvar-brand"><img src="img\Bustop.png" width="200" height="50"  ></a>
+              <a href="index.html" class="nabvar-brand"><img src="img\Bustop.png" width="200" height="50"  ></a>
           </div>
 
           <!--Inicia Menu-->
@@ -35,15 +35,15 @@
 
             <ul class="nav navbar-nav">
               <li class="active"><a href="index.html">Inicio</a></li>
-
+              <li class="divider"></li>
               <li><a href="Rutas.html">Rutas</a></li>
-
+              <li class="divider"></li>
               <li><a href="Acerca.html">Acerca de Bustop</a></li>
-
+              <li class="divider"></li>
             </ul> 
 
             <ul class="nav navbar-nav navbar-right">
-          <li><a href="Login.html"><span class="glyphicon glyphicon-log-in"  ></span> Login</a></li>
+          <li><a id="login" href="Login.html"><span class="glyphicon glyphicon-log-in"  ></span> Login</a></li>
           </ul>
             
           </div>
@@ -54,12 +54,18 @@
       </nav>
     <!--FIN HEADER-->
 
+    <!--Header img-->
+
+    <img id="img-cabeza" class="img-responsive" src="img\Header2.png" alt="">
+
+    <!--Fin header img-->
+
   
   <section>
     
     <div class="container section">
       <center>
-      <img class="img-responsive" src="img\LogoBus.png">
+     
       
 
       <!--SLIDER-->
